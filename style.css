@@ -35,12 +35,13 @@ p {
 
 .service-container p:hover {
   color: white;
-  transition: 1s;
+  transition: 0.5s;
   font-weight: 450;
 }
 
 .section1-hero {
-  background: #f0ece2;
+  background-image: url("images/goldb1.jpg");
+  background-size: cover;
   padding: 155px 20px;
   text-align: center;
 }
@@ -94,4 +95,12 @@ p {
 
 .custom-container img {
   padding: 15px;
+}
+
+.contact-content {
+  background-color: #a7bcb9;
+}
+
+.contact-box {
+  background-color: whitesmoke;
 }
