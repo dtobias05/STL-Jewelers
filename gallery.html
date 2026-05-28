@@ -23,18 +23,35 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <a href="index.html">homepage</a>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <img src="images/stl-logo.png" class="logo d-none d-lg-block" alt="" />
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/about-us.html">About Us</a></li>
+          <li><a href="/services.html">Services</a></li>
+          <li><a href="/custom.html">Custom Design</a></li>
+          <li class="active"><a href="/gallery.html">Gallery</a></li>
+          <li><a href="/contact-us.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
     <div class="content-container container">
+     <h1 class="mb-5">Gallery</h1> 
       <div class="content">
-        <h1 class="mb-4">Gallery</h1>
-        <div class="gallery-row">
-          <div class="col-3">
-            <img src="images/GD267_bands.jpg" alt="" />
-            <img src="images/GD266_bands.jpg" alt="" />
-            <img src="images/GD265.jpg" alt="" />
-            <img src="images/GD264.jpg" alt="" />
-          </div>
-        </div>
+        <div class="row g-3">
+  <div class="col-6 col-md-4 col-lg-3">
+    <img src="images/GD264.jpg" class="img-fluid rounded gallery-img" />
+  </div>
+  <div class="col-6 col-md-4 col-lg-3">
+    <img src="images/GD265.jpg" class="img-fluid rounded gallery-img" />
+  </div>
+  <div class="col-6 col-md-4 col-lg-3">
+    <img src="images/GD266_bands.jpg" class="img-fluid rounded gallery-img" />
+  </div>
+  <div class="col-6 col-md-4 col-lg-3">
+    <img src="images/GD267_bands.jpg" class="img-fluid rounded gallery-img" />
+  </div>
       </div>
     </div>
   </body>
